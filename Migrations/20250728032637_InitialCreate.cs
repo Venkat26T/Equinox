@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace Equinox.Migrations
 {
     /// <inheritdoc />
-    public partial class InitialCreate1 : Migration
+    public partial class InitialCreate : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -128,8 +128,9 @@ namespace Equinox.Migrations
                 columns: new[] { "ClubId", "Name", "PhoneNumber" },
                 values: new object[,]
                 {
-                    { 1, "Chicago Loop", "312-000-1234" },
-                    { 2, "Lincoln Park", "312-000-5678" }
+                    { 1, "Chicago Loop", "812-234-4563" },
+                    { 2, "Lincoln Park", "630-567-4561" },
+                    { 3, "Wheaton Park", "456-567-4561" }
                 });
 
             migrationBuilder.InsertData(
@@ -137,8 +138,9 @@ namespace Equinox.Migrations
                 columns: new[] { "UserId", "DOB", "Email", "IsCoach", "Name", "PhoneNumber" },
                 values: new object[,]
                 {
-                    { 1, new DateTime(1990, 5, 10, 0, 0, 0, 0, DateTimeKind.Unspecified), "john@example.com", true, "John Doe", "555-111-1234" },
-                    { 2, new DateTime(1985, 3, 20, 0, 0, 0, 0, DateTimeKind.Unspecified), "jane@example.com", true, "Jane Smith", "555-222-5678" }
+                    { 1, new DateTime(2000, 2, 10, 0, 0, 0, 0, DateTimeKind.Unspecified), "john@example.com", true, "Peter John", "456-678-2345" },
+                    { 2, new DateTime(1978, 3, 20, 0, 0, 0, 0, DateTimeKind.Unspecified), "parker@example.com", true, "Peter Parker", "675-678-2345" },
+                    { 3, new DateTime(1988, 3, 20, 0, 0, 0, 0, DateTimeKind.Unspecified), "adam@example.com", true, "Scot Adam", "675-123-2345" }
                 });
 
             migrationBuilder.InsertData(
@@ -146,8 +148,9 @@ namespace Equinox.Migrations
                 columns: new[] { "EquinoxClassId", "ClassCategoryId", "ClassDay", "ClassPicture", "ClubId", "Name", "Time", "UserId" },
                 values: new object[,]
                 {
-                    { 1, 1, "Monday", "hatha.jpg", 1, "Hatha Yoga", "8 AM – 9 AM", 1 },
-                    { 2, 2, "Tuesday", "hiit.jpg", 2, "HIIT Junior", "6 PM – 7 PM", 2 }
+                    { 1, 1, "Saturday", "hatha.jpg", 1, "Hatha Yoga", "8 AM – 9 AM", 1 },
+                    { 2, 2, "Friday", "hiit.jpg", 2, "HIIT Junior", "6 PM – 7 PM", 2 },
+                    { 3, 2, "Monday", "hiit2.jpg", 3, "HIIT Senior", "6 PM – 7 PM", 3 }
                 });
 
             migrationBuilder.CreateIndex(

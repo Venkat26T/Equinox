@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Equinox.Migrations
 {
     [DbContext(typeof(EquinoxContext))]
-    [Migration("20250726050256_InitialCreate2")]
-    partial class InitialCreate2
+    [Migration("20250728032637_InitialCreate")]
+    partial class InitialCreate
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -91,13 +91,19 @@ namespace Equinox.Migrations
                         {
                             ClubId = 1,
                             Name = "Chicago Loop",
-                            PhoneNumber = "312-000-1234"
+                            PhoneNumber = "812-234-4563"
                         },
                         new
                         {
                             ClubId = 2,
                             Name = "Lincoln Park",
-                            PhoneNumber = "312-000-5678"
+                            PhoneNumber = "630-567-4561"
+                        },
+                        new
+                        {
+                            ClubId = 3,
+                            Name = "Wheaton Park",
+                            PhoneNumber = "456-567-4561"
                         });
                 });
 
@@ -147,7 +153,7 @@ namespace Equinox.Migrations
                         {
                             EquinoxClassId = 1,
                             ClassCategoryId = 1,
-                            ClassDay = "Monday",
+                            ClassDay = "Saturday",
                             ClassPicture = "hatha.jpg",
                             ClubId = 1,
                             Name = "Hatha Yoga",
@@ -158,12 +164,23 @@ namespace Equinox.Migrations
                         {
                             EquinoxClassId = 2,
                             ClassCategoryId = 2,
-                            ClassDay = "Tuesday",
+                            ClassDay = "Friday",
                             ClassPicture = "hiit.jpg",
                             ClubId = 2,
                             Name = "HIIT Junior",
                             Time = "6 PM – 7 PM",
                             UserId = 2
+                        },
+                        new
+                        {
+                            EquinoxClassId = 3,
+                            ClassCategoryId = 2,
+                            ClassDay = "Monday",
+                            ClassPicture = "hiit2.jpg",
+                            ClubId = 3,
+                            Name = "HIIT Senior",
+                            Time = "6 PM – 7 PM",
+                            UserId = 3
                         });
                 });
 
@@ -199,20 +216,29 @@ namespace Equinox.Migrations
                         new
                         {
                             UserId = 1,
-                            DOB = new DateTime(1990, 5, 10, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            DOB = new DateTime(2000, 2, 10, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Email = "john@example.com",
                             IsCoach = true,
-                            Name = "John Doe",
-                            PhoneNumber = "555-111-1234"
+                            Name = "Peter John",
+                            PhoneNumber = "456-678-2345"
                         },
                         new
                         {
                             UserId = 2,
-                            DOB = new DateTime(1985, 3, 20, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Email = "jane@example.com",
+                            DOB = new DateTime(1978, 3, 20, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Email = "parker@example.com",
                             IsCoach = true,
-                            Name = "Jane Smith",
-                            PhoneNumber = "555-222-5678"
+                            Name = "Peter Parker",
+                            PhoneNumber = "675-678-2345"
+                        },
+                        new
+                        {
+                            UserId = 3,
+                            DOB = new DateTime(1988, 3, 20, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Email = "adam@example.com",
+                            IsCoach = true,
+                            Name = "Scot Adam",
+                            PhoneNumber = "675-123-2345"
                         });
                 });
 

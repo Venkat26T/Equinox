@@ -1,6 +1,7 @@
 @model Equinox.Models.EquinoxClass
 
 @{
+    Layout = "_MainLayout";
     ViewBag.Title = "Class Details";
 }
 
@@ -9,7 +10,7 @@
 <div class="card mb-3" style="max-width: 540px;">
     <div class="row g-0">
         <div class="col-md-4">
-            <img src="~/images/@Model.ClassPicture" class="img-fluid rounded-start" alt="@Model.Name">
+            <img src="~/images/@Model.ClassPicture" class="img-fluid rounded-start" alt="@Model.Name" />
         </div>
         <div class="col-md-8">
             <div class="card-body">
@@ -17,13 +18,15 @@
                 <p class="card-text"><strong>Club:</strong> @Model.Club.Name</p>
                 <p class="card-text"><strong>Category:</strong> @Model.ClassCategory.Name</p>
                 <p class="card-text"><strong>Time:</strong> @Model.Time on @Model.ClassDay</p>
-                 <p class="card-text"><strong>Couch:</strong> @Model.User.Name</p>                
+                <p class="card-text"><strong>Coach:</strong> @Model.User.Name</p>
 
-                <a asp-action="ShowClasses" class="btn btn-secondary">Back to Classes</a>
-                <a asp-action="Book" asp-route-id="@Model.EquinoxClassId" class="btn btn-primary">Book This Class</a>
+                <form asp-action="Book" method="post">
+                    <input type="hidden" name="id" value="@Model.EquinoxClassId" />
+                    <button type="submit" class="btn btn-primary">Book This Class</button>
+                </form>
+
+                <a asp-action="ShowClasses" class="btn btn-secondary mt-2">Back to Classes</a>
             </div>
         </div>
     </div>
 </div>
-
-

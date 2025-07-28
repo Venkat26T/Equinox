@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Equinox.Models;
+using Equinox.Models.ViewModels;
 using System.Linq;
 
 namespace Equinox.Controllers
@@ -17,42 +18,41 @@ namespace Equinox.Controllers
             _context = context;
         }
 
-       
-       public IActionResult ShowClasses(string? club, string? category)
-{
-    club ??= HttpContext.Session.GetString(ClubFilterKey) ?? "All";
-    category ??= HttpContext.Session.GetString(CategoryFilterKey) ?? "All";
+        public IActionResult ShowClasses(string? club, string? category)
+        {
+            club ??= HttpContext.Session.GetString(ClubFilterKey) ?? "All";
+            category ??= HttpContext.Session.GetString(CategoryFilterKey) ?? "All";
 
-    HttpContext.Session.SetString(ClubFilterKey, club);
-    HttpContext.Session.SetString(CategoryFilterKey, category);
+            HttpContext.Session.SetString(ClubFilterKey, club);
+            HttpContext.Session.SetString(CategoryFilterKey, category);
 
-    var model = new FilterViewModel1
-    {
-        AllClubs = _context.Clubs.ToList(),
-        AllCategories = _context.ClassCategories.ToList(),
-        SelectedClubName = club,
-        SelectedCategoryName = category
-    };
+            var model = new FilterViewModel
+            {
+                AllClubs = _context.Clubs.ToList(),
+                AllCategories = _context.ClassCategories.ToList(),
+                SelectedClubName = club,
+                SelectedCategoryName = category
+            };
 
-    var query = _context.Classes
-        .Include(c => c.Club)
-        .Include(c => c.ClassCategory)
-        .Include(c => c.User)
-        .AsQueryable();
+            var query = _context.Classes
+                .Include(c => c.Club)
+                .Include(c => c.ClassCategory)
+                .Include(c => c.User)
+                .AsQueryable();
 
-    if (club != "All")
-        query = query.Where(c => c.Club.Name == club);
+            if (club != "All")
+                query = query.Where(c => c.Club.Name == club);
 
-    if (category != "All")
-        query = query.Where(c => c.ClassCategory.Name == category);
+            if (category != "All")
+                query = query.Where(c => c.ClassCategory.Name == category);
 
-    model.AvailableClasses = query.ToList();
+            model.AvailableClasses = query.ToList();
 
-    var bookings = HttpContext.Session.GetObjectFromJson<List<int>>(BookingSessionKey) ?? new List<int>();
-    ViewBag.CartCount = bookings.Count;
+            var bookings = HttpContext.Session.GetObjectFromJson<List<int>>(BookingSessionKey) ?? new List<int>();
+            ViewBag.CartCount = bookings.Count;
 
-    return View(model);
-}
+            return View(model);
+        }
 
         [HttpPost]
         public IActionResult Filter(string club, string category)
@@ -77,6 +77,7 @@ namespace Equinox.Controllers
             return View(gymClass);
         }
 
+        [HttpPost]
         public IActionResult Book(int id)
         {
             var bookings = HttpContext.Session.GetObjectFromJson<List<int>>(BookingSessionKey) ?? new List<int>();
@@ -102,24 +103,8 @@ namespace Equinox.Controllers
             ViewBag.CartCount = bookings.Count;
             return View(bookedClasses);
         }
-        
-public IActionResult ShowDetails(int id)
-        {
-            var eqClass = _context.Classes
-                .Include(c => c.Club)
-                .Include(c => c.ClassCategory)
-                .Include(c => c.User)
-                .FirstOrDefault(c => c.EquinoxClassId == id);
 
-            if (eqClass == null)
-            {
-                return NotFound();
-            }
-
-            return View(eqClass);
-        }
-
-
+        [HttpPost]
         public IActionResult Cancel(int id)
         {
             var bookings = HttpContext.Session.GetObjectFromJson<List<int>>(BookingSessionKey) ?? new List<int>();

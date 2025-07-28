@@ -1,5 +1,7 @@
-@model FilterViewModel1
+@model Equinox.Models.ViewModels.FilterViewModel
+
 @{
+    Layout = "_MainLayout";
     ViewBag.Title = "Filter Classes";
 }
 
@@ -43,18 +45,33 @@
 </form>
 
 <div class="row">
-    @foreach (var item in Model.AvailableClasses)
+    @if (Model.AvailableClasses.Any())
     {
-        <div class="col-md-4 mb-4">
-            <div class="card h-100">
-                <img src="~/images/@item.ClassPicture" class="card-img-top" alt="@item.Name image" />
-                <div class="card-body">
-                    <h5 class="card-title">@item.Name</h5>
-                    <p class="card-text">Club: @item.Club.Name</p>
-                    <p class="card-text">Category: @item.ClassCategory.Name</p>
-                    <a asp-action="ShowDetails" asp-route-id="@item.EquinoxClassId" class="btn btn-outline-info">View Details</a>
+        @foreach (var item in Model.AvailableClasses)
+        {
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="~/images/@item.ClassPicture" class="card-img-top" alt="@item.Name image" />
+                    <div class="card-body">
+                        <h5 class="card-title">@item.Name</h5>
+                        <p class="card-text">Club: @item.Club.Name</p>
+                        <p class="card-text">Category: @item.ClassCategory.Name</p>
+
+                        <form asp-action="Book" method="post" class="d-inline">
+                            <input type="hidden" name="id" value="@item.EquinoxClassId" />
+                            <button type="submit" class="btn btn-success">Book</button>
+                        </form>
+
+                        <a asp-action="Detail" asp-route-id="@item.EquinoxClassId" class="btn btn-outline-info">View Details</a>
+                    </div>
                 </div>
             </div>
+        }
+    }
+    else
+    {
+        <div class="col-12">
+            <div class="alert alert-warning">No classes available for the selected filters.</div>
         </div>
     }
 </div>
