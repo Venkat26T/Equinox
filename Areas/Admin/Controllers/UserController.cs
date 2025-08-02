@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using Equinox.Models;
+using Microsoft.EntityFrameworkCore.Sqlite;
 
 namespace Equinox.Areas.Admin.Controllers
 {
@@ -21,20 +22,20 @@ namespace Equinox.Areas.Admin.Controllers
 
         public IActionResult Create() => View();
 
-    
 
-[HttpPost]
-[ValidateAntiForgeryToken]
-public IActionResult Create(User user)
-{
-    if (ModelState.IsValid)
-    {
-        _context.Users.Add(user);
-        _context.SaveChanges();
-        return RedirectToAction(nameof(Index));
-    }
-    return View(user);
-}
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Create(User user)
+        {
+            if (ModelState.IsValid)
+            {
+                _context.Users.Add(user);
+                _context.SaveChanges();
+                return RedirectToAction(nameof(Index));
+            }
+            return View(user);
+        }
 
 
 

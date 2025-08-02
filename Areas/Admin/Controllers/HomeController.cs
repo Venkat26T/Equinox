@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore.Sqlite;
 
 namespace Equinox.Areas.Admin.Controllers
 {

@@ -1,5 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
-
+using Microsoft.EntityFrameworkCore.Sqlite;
 namespace Equinox.Controllers
 {
     public class PrivateClassController : Controller

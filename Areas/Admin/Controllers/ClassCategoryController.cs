@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Equinox.Models;
 
+using Microsoft.EntityFrameworkCore.Sqlite;
 namespace Equinox.Areas.Admin.Controllers
 {
     [Area("Admin")]
@@ -21,23 +22,23 @@ namespace Equinox.Areas.Admin.Controllers
 
         public IActionResult Create() => View();
 
-      
 
-[HttpPost]
-[ValidateAntiForgeryToken]
-public IActionResult Create(ClassCategory category)
-{
-    
-    if (!ModelState.IsValid)
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Create(ClassCategory category)
+        {
+
+            if (!ModelState.IsValid)
             {
                 ModelState.AddModelError("", "Please fix the error");
                 return View(category);
             }
-    
-                      _context.ClassCategories.Add(category);
-                _context.SaveChanges();
-                return RedirectToAction(nameof(Index));
-}
+
+            _context.ClassCategories.Add(category);
+            _context.SaveChanges();
+            return RedirectToAction(nameof(Index));
+        }
 
 
 
@@ -52,8 +53,8 @@ public IActionResult Create(ClassCategory category)
         }
 
         [HttpPost]
-        
-[ValidateAntiForgeryToken]
+
+        [ValidateAntiForgeryToken]
         public IActionResult Edit(int id, ClassCategory category)
         {
             if (id != category.ClassCategoryId) return BadRequest();
@@ -63,8 +64,8 @@ public IActionResult Create(ClassCategory category)
                 _context.SaveChanges();
                 return RedirectToAction(nameof(Index));
             }
-            ModelState.AddModelError("", "Please fix the error");     
-                   return View(category);
+            ModelState.AddModelError("", "Please fix the error");
+            return View(category);
         }
 
         public IActionResult Delete(int id)
@@ -74,8 +75,8 @@ public IActionResult Create(ClassCategory category)
         }
 
         [HttpPost, ActionName("Delete")]
-        
-[ValidateAntiForgeryToken]
+
+        [ValidateAntiForgeryToken]
         public IActionResult DeleteConfirmed(int id)
         {
             var category = _context.ClassCategories.Find(id);

@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Sqlite;
 using Equinox.Models;
 using Equinox.Models.ViewModels;
 using System.Collections.Generic;
