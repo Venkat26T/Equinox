@@ -1,10 +1,14 @@
 using Equinox.Models;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Sqlite;
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddDbContext<EquinoxContext>(options =>
-    options.UseSqlite("Data Source=Equinox.db"));
+options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+
+// options.UseSqlite("Data Source=Equinox.db"));
 
 builder.Services.AddSession();
 builder.Services.AddControllersWithViews();
@@ -26,3 +30,4 @@ app.MapControllerRoute(
     pattern: "{controller=Home}/{action=Index}/{id?}");
 
 app.Run();
+
