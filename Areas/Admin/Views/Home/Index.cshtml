@@ -4,9 +4,27 @@
 }
 
 <div class="container mt-4">
-    <h2 class="mb-3">Welcome, Admin</h2>
-    <p>
-        Access the tools to oversee club operations, track memberships,
-        and coordinate training schedules efficiently.
-    </p>
+    <h2>Admin Area</h2>
+<ul>
+    <li><a asp-area="Admin" asp-controller="Club" asp-action="Index">Manage Club</a></li>
+    <li><a asp-area="Admin" asp-controller="ClassCategory" asp-action="Index">Manage Class Category</a></li>
+    <li><a asp-area="Admin" asp-controller="User" asp-action="Index">Manage User</a></li>
+</ul>
+
 </div>
+
+
+@section Scripts {
+    <script>
+        jQuery.validator.addMethod("minimumage", function (value, element) {
+            if (!value) return false;
+            var dob = new Date(value);
+            var today = new Date();
+            var age = today.getFullYear() - dob.getFullYear();
+            if (today < new Date(dob.setFullYear(dob.getFullYear() + age))) age--;
+            return age >= 8 && age <= 80;
+        });
+
+        jQuery.validator.unobtrusive.adapters.addBool("minimumage");
+    </script>
+}

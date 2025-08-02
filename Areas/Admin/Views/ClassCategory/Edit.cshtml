@@ -1,0 +1,17 @@
+@model Equinox.Models.ClassCategory
+<h2>Edit Category</h2>
+<form asp-action="Edit">
+    <input type="hidden" asp-for="ClassCategoryId" />
+    <div asp-validation-summary="All"></div>
+
+    <div><label asp-for="Name"></label><input asp-for="Name" /><span asp-validation-for="Name"></span></div>
+    <div><label asp-for="Image"></label><input asp-for="Image" /><span asp-validation-for="Image"></span></div>
+    <button type="submit">Save</button>
+</form>
+<a asp-action="Index">Back</a>
+
+@section Scripts {
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation-unobtrusive@3.2.12/dist/jquery.validate.unobtrusive.min.js"></script>
+}

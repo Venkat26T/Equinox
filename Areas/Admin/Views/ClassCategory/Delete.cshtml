@@ -1,0 +1,9 @@
+@model Equinox.Models.ClassCategory
+<h2>Delete Category</h2>
+<h3>Are you sure you want to delete this?</h3>
+<div><strong>@Model.Name</strong> - @Model.Image</div>
+<form asp-action="Delete">
+    <input type="hidden" asp-for="ClassCategoryId" />
+    <button type="submit">Confirm Delete</button>
+</form>
+<a asp-action="Index">Back</a>

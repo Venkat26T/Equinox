@@ -1,0 +1,22 @@
+using System.ComponentModel.DataAnnotations;
+using Microsoft.Extensions.DependencyInjection;
+using Equinox.Models;
+using System.Linq;
+
+public class UniquePhoneNumberAttribute : ValidationAttribute
+{
+    protected override ValidationResult IsValid(object value, ValidationContext validationContext)
+    {
+        var db = validationContext.GetService(typeof(EquinoxContext)) as EquinoxContext;
+
+        if (value == null || db == null)
+            return new ValidationResult("Phone number is required.");
+
+        string phone = value.ToString();
+        bool exists = db.Users.Any(u => u.PhoneNumber == phone);
+
+        return exists 
+            ? new ValidationResult(ErrorMessage ?? "Phone number already exists.")
+            : ValidationResult.Success;
+    }
+}

@@ -1,0 +1,18 @@
+@model Equinox.Models.Club
+<h2>Delete</h2>
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <strong>@Model.Name</strong>
+</div>
+<form asp-action="Delete">
+    <input type="hidden" asp-for="ClubId" />
+    <button type="submit">Confirm Delete</button>
+</form>
+<a asp-action="Index">Back</a>
+
+<!-- Repeat these views for ClassCategory and User with their properties -->
+
+<!-- For User Create/Edit, add DOB + IsCoach + Email + JS reference -->
+@section Scripts {
+    <script src="~/js/minimum-age.js"></script>
+}

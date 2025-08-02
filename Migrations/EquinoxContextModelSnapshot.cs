@@ -39,8 +39,12 @@ namespace Equinox.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
+                    b.Property<string>("Image")
+                        .HasColumnType("TEXT");
+
                     b.Property<string>("Name")
                         .IsRequired()
+                        .HasMaxLength(50)
                         .HasColumnType("TEXT");
 
                     b.HasKey("ClassCategoryId");
@@ -51,16 +55,19 @@ namespace Equinox.Migrations
                         new
                         {
                             ClassCategoryId = 1,
+                            Image = "",
                             Name = "Yoga"
                         },
                         new
                         {
                             ClassCategoryId = 2,
+                            Image = "",
                             Name = "HIIT"
                         },
                         new
                         {
                             ClassCategoryId = 3,
+                            Image = "",
                             Name = "Boxing"
                         });
                 });
@@ -73,6 +80,7 @@ namespace Equinox.Migrations
 
                     b.Property<string>("Name")
                         .IsRequired()
+                        .HasMaxLength(50)
                         .HasColumnType("TEXT");
 
                     b.Property<string>("PhoneNumber")
@@ -199,6 +207,7 @@ namespace Equinox.Migrations
 
                     b.Property<string>("Name")
                         .IsRequired()
+                        .HasMaxLength(50)
                         .HasColumnType("TEXT");
 
                     b.Property<string>("PhoneNumber")

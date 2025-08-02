@@ -1,68 +1,68 @@
 @model Equinox.Models.ViewModels.FilterViewModel
 
 @{
-    Layout = "_MainLayout";
+    Layout = "_Layout";
     ViewBag.Title = "Filter Classes";
 }
 
-<h2>Filter Classes</h2>
+<h2 class="mt-4 mb-3">Filter Classes</h2>
 
 @if (TempData["Message"] != null)
 {
     <div class="alert alert-success">@TempData["Message"]</div>
 }
 
-<form method="get" asp-action="ShowClasses">
-    <div class="row mb-3">
-        <div class="col-md-4">
-            <label>Club:</label>
-            <select name="club" class="form-select">
-                <option value="All" selected="@(Model.SelectedClubName == "All")">All</option>
-                @foreach (var c in Model.AllClubs)
-                {
-                    <option value="@c.Name" selected="@(Model.SelectedClubName == c.Name)">
-                        @c.Name
-                    </option>
-                }
-            </select>
-        </div>
-        <div class="col-md-4">
-            <label>Category:</label>
-            <select name="category" class="form-select">
-                <option value="All" selected="@(Model.SelectedCategoryName == "All")">All</option>
-                @foreach (var cat in Model.AllCategories)
-                {
-                    <option value="@cat.Name" selected="@(Model.SelectedCategoryName == cat.Name)">
-                        @cat.Name
-                    </option>
-                }
-            </select>
-        </div>
-        <div class="col-md-4 mt-4">
-            <button type="submit" class="btn btn-primary">Apply Filter</button>
-        </div>
+<form method="get" asp-action="ShowClasses" class="row mb-4">
+    <div class="col-md-4">
+        <label class="form-label">Club:</label>
+        <select name="club" class="form-select">
+            <option value="All" selected="@(Model.SelectedClubName == "All")">All</option>
+            @foreach (var c in Model.AllClubs)
+            {
+                <option value="@c.Name" selected="@(Model.SelectedClubName == c.Name)">
+                    @c.Name
+                </option>
+            }
+        </select>
+    </div>
+    <div class="col-md-4">
+        <label class="form-label">Category:</label>
+        <select name="category" class="form-select">
+            <option value="All" selected="@(Model.SelectedCategoryName == "All")">All</option>
+            @foreach (var cat in Model.AllCategories)
+            {
+                <option value="@cat.Name" selected="@(Model.SelectedCategoryName == cat.Name)">
+                    @cat.Name
+                </option>
+            }
+        </select>
+    </div>
+    <div class="col-md-4 d-flex align-items-end">
+        <button type="submit" class="btn btn-primary w-100">Apply Filter</button>
     </div>
 </form>
 
-<div class="row">
+<div class="row row-cols-1 row-cols-md-3 g-4">
     @if (Model.AvailableClasses.Any())
     {
         @foreach (var item in Model.AvailableClasses)
         {
-            <div class="col-md-4 mb-4">
-                <div class="card h-100">
-                    <img src="~/images/@item.ClassPicture" class="card-img-top" alt="@item.Name image" />
+            <div class="col">
+                <div class="card h-100 shadow-sm">
+                    <img src="~/images/@item.ClassPicture" class="card-img-top" alt="@item.Name image" style="height: 200px; object-fit: cover;" />
                     <div class="card-body">
                         <h5 class="card-title">@item.Name</h5>
-                        <p class="card-text">Club: @item.Club.Name</p>
-                        <p class="card-text">Category: @item.ClassCategory.Name</p>
-
+                        <p class="card-text">
+                            <strong>Club:</strong> @item.Club.Name <br />
+                            <strong>Category:</strong> @item.ClassCategory.Name
+                        </p>
+                    </div>
+                    <div class="card-footer d-flex justify-content-between">
                         <form asp-action="Book" method="post" class="d-inline">
                             <input type="hidden" name="id" value="@item.EquinoxClassId" />
-                            <button type="submit" class="btn btn-success">Book</button>
+                            <button type="submit" class="btn btn-success btn-sm">Book</button>
                         </form>
-
-                        <a asp-action="Detail" asp-route-id="@item.EquinoxClassId" class="btn btn-outline-info">View Details</a>
+                        <a asp-action="Detail" asp-route-id="@item.EquinoxClassId" class="btn btn-outline-primary btn-sm">View Details</a>
                     </div>
                 </div>
             </div>

@@ -1,0 +1,24 @@
+@model Equinox.Models.User
+<h2>Create User</h2>
+<form asp-action="Create" method="post">
+    @Html.AntiForgeryToken()
+
+    <div asp-validation-summary="All"></div>
+
+    <div><label asp-for="Name"></label><input asp-for="Name" /><span asp-validation-for="Name"></span></div>
+    <div><label asp-for="Email"></label><input asp-for="Email" /><span asp-validation-for="Email"></span></div>
+    <div><label asp-for="PhoneNumber"></label><input asp-for="PhoneNumber" /><span asp-validation-for="PhoneNumber"></span></div> 
+    <div><label asp-for="DOB"></label><input asp-for="DOB" type="date" /><span asp-validation-for="DOB"></span></div>
+    <div><label asp-for="IsCoach"></label><input asp-for="IsCoach" type="checkbox" /></div>
+    <button type="submit">Save</button>
+</form>
+<a asp-action="Index">Back</a>
+
+@section Scripts {
+     <script src="~/js/minimum-age.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation-unobtrusive@3.2.12/dist/jquery.validate.unobtrusive.min.js"></script>    
+   
+}
+

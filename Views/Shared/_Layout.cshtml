@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewBag.Title - Equinox</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+    @if (IsSectionDefined("Header"))
+    {
+        @RenderSection("Header", required: false)
+    }
+    else
+    {
+        <header>
+            <nav class="navbar navbar-expand-sm navbar-light bg-light shadow-sm">
+                <div class="container-fluid">
+                    <a class="navbar-brand" asp-controller="Home" asp-action="Index">Equinox</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav me-auto mb-2 mb-sm-0">
+                            <li class="nav-item"><a class="nav-link" asp-controller="Club" asp-action="List">Clubs</a></li>
+                            <li class="nav-item"><a class="nav-link" asp-controller="Class" asp-action="List">Classes</a></li>
+                            <li class="nav-item"><a class="nav-link" asp-controller="Membership" asp-action="List">Membership</a></li>
+                            <li class="nav-item"><a class="nav-link" asp-controller="PrivateClass" asp-action="List">Private Training</a></li>
+                            <li class="nav-item"><a class="nav-link" asp-controller="Gym" asp-action="ShowClasses">Gym Session</a></li>
+                            <li class="nav-item">
+                                @{
+                                    var bookingCount = ViewBag.BookingCount as int? ?? 0;
+                                }
+                                <a class="nav-link" asp-controller="Gym" asp-action="ViewBookings">
+                                    Bookings
+                                    @if (bookingCount > 0)
+                                    {
+                                        <span class="badge bg-danger ms-1">@bookingCount</span>
+                                    }
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" asp-area="Admin" asp-controller="Home" asp-action="Index">Admin</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+    }
+
+    <main class="container mt-4">
+        @RenderBody()
+    </main>
+
+    <footer class="text-center mt-5 mb-4">
+        <hr />
+        <div>
+            <a asp-area="" asp-controller="Home" asp-action="Contact">Contact</a> |
+            <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy Policy</a> |
+            <a asp-area="" asp-controller="Home" asp-action="Terms">Terms</a> |
+            <a asp-area="" asp-controller="Home" asp-action="CookiePolicy">Cookies</a>
+        </div>
+        <div class="mt-2 text-muted small">
+            &copy; 2025 Equinox        </div>
+    </footer>
+
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

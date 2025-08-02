@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\thang\\Downloads\\Equinox\\Equinox.csproj": {}
+    "C:\\Users\\ARUN\\OneDrive\\Equinox_Update2\\Equinox\\Equinox.csproj": {}
   },
   "projects": {
-    "C:\\Users\\thang\\Downloads\\Equinox\\Equinox.csproj": {
+    "C:\\Users\\ARUN\\OneDrive\\Equinox_Update2\\Equinox\\Equinox.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\thang\\Downloads\\Equinox\\Equinox.csproj",
+        "projectUniqueName": "C:\\Users\\ARUN\\OneDrive\\Equinox_Update2\\Equinox\\Equinox.csproj",
         "projectName": "Equinox",
-        "projectPath": "C:\\Users\\thang\\Downloads\\Equinox\\Equinox.csproj",
-        "packagesPath": "C:\\Users\\thang\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\thang\\Downloads\\Equinox\\obj\\",
+        "projectPath": "C:\\Users\\ARUN\\OneDrive\\Equinox_Update2\\Equinox\\Equinox.csproj",
+        "packagesPath": "C:\\Users\\ARUN\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ARUN\\OneDrive\\Equinox_Update2\\Equinox\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\thang\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\ARUN\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
@@ -74,7 +74,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

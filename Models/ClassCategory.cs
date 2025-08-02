@@ -6,7 +6,10 @@ namespace Equinox.Models
     {
         public int ClassCategoryId { get; set; }
 
-        [Required]
-        public string Name { get; set; } = string.Empty;
+        [Required(ErrorMessage = "Please enter a name.")]
+        [StringLength(50, ErrorMessage = "Name must be 50 characters or less.")]
+        [RegularExpression(@"^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d ]+$", ErrorMessage = "Name must be alphanumeric.")]
+        public string Name { get; set; } = string.Empty;        
+        public string? Image { get; set; } = string.Empty;
     }
 }
