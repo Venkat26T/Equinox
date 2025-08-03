@@ -1719,6 +1719,7 @@ C:\Users\fathe\Equinox2\Equinox_Updated\Equinox\bin\Debug\net9.0\appsettings.Dev
 C:\Users\fathe\Equinox2\Equinox_Updated\Equinox\bin\Debug\net9.0\appsettings.json
 C:\Users\fathe\Equinox2\Equinox_Updated\Equinox\bin\Debug\net9.0\Equinox.staticwebassets.runtime.json
 C:\Users\fathe\Equinox2\Equinox_Updated\Equinox\bin\Debug\net9.0\Equinox.staticwebassets.endpoints.json
+C:\Users\fathe\Equinox2\Equinox_Updated\Equinox\bin\Debug\net9.0\Equinox.db
 C:\Users\fathe\Equinox2\Equinox_Updated\Equinox\bin\Debug\net9.0\Equinox.exe
 C:\Users\fathe\Equinox2\Equinox_Updated\Equinox\bin\Debug\net9.0\Equinox.deps.json
 C:\Users\fathe\Equinox2\Equinox_Updated\Equinox\bin\Debug\net9.0\Equinox.runtimeconfig.json

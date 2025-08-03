@@ -14,11 +14,11 @@
     </PackageReference>
   </ItemGroup>
 
-  
-  <ItemGroup>
-    <Content Update="Equinox.db">
+<ItemGroup>
+    <None Include="Equinox.db">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
+    </None>
   </ItemGroup>
+
 
 </Project>
