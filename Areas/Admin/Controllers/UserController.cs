@@ -8,14 +8,16 @@ namespace Equinox.Areas.Admin.Controllers
     public class UserController : Controller
     {
         private readonly EquinoxContext _context;
-
-        public UserController(EquinoxContext context)
+         private readonly ILogger<ClubController> _logger;
+        public UserController(EquinoxContext context, ILogger<ClubController> logger)
         {
             _context = context;
+            _logger = logger;
         }
 
         public IActionResult Index()
         {
+            _logger.LogInformation("🔍 Reached Admin/User/Index action");
             var users = _context.Users.ToList();
             return View(users);
         }

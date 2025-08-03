@@ -9,11 +9,20 @@ namespace Equinox.Areas.Admin.Controllers
     public class ClubController : Controller
     {
         private readonly EquinoxContext _context;
+        private readonly ILogger<ClubController> _logger;
+        public ClubController(ILogger<ClubController> logger, EquinoxContext context)
+        {
+            _logger = logger;
+        _context = context;
+    }
+ 
 
-        public ClubController(EquinoxContext context) => _context = context;
 
         public IActionResult Index()
         {
+            _logger.LogInformation("🔍 Reached Admin/Club/Index action");
+        
+
             List<Club> clubs = new List<Club>();
             foreach (var c in _context.Clubs)
             {
