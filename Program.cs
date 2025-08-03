@@ -61,6 +61,11 @@ builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
 
+using (var scope = app.Services.CreateScope())
+{
+    var db = scope.ServiceProvider.GetRequiredService<EquinoxContext>();
+    db.Database.Migrate();  // You can replace with EnsureCreated() if you're not using migrations
+}
 app.UseStaticFiles();
 app.UseRouting();
 app.UseSession();
