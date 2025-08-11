@@ -1,5 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore.Sqlite;
+using Microsoft.Extensions.Logging;
 
 namespace Equinox.Areas.Admin.Controllers
 {
@@ -8,10 +8,10 @@ namespace Equinox.Areas.Admin.Controllers
     {
         private readonly ILogger<HomeController> _logger;
 
-    public HomeController(ILogger<HomeController> logger)
-    {
-        _logger = logger;
-    }
+        public HomeController(ILogger<HomeController> logger)
+        {
+            _logger = logger;
+        }
 
         public IActionResult Index()
         {

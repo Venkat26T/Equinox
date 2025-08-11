@@ -14,19 +14,18 @@ namespace Equinox.Models
         public string Name { get; set; } = string.Empty;
 
         [Required(ErrorMessage = "Please enter a phone number.")]
-        [Phone(ErrorMessage = "Invalid phone number.")]        
+        [Phone(ErrorMessage = "Invalid phone number.")]
         [RegularExpression(@"^\d{3}-\d{3}-\d{4}$", ErrorMessage = "Phone must be in 123-456-7890 format.")]
         [UniquePhoneNumber(ErrorMessage = "Phone number already exists.")]
         [Remote(action: "CheckPhone", controller: "Validation", areaName: "Admin", ErrorMessage = "Phone number already exists.")]
-public string PhoneNumber { get; set; } 
+        public string PhoneNumber { get; set; } = string.Empty;
 
-       [Required(ErrorMessage = "Please enter an email address.")]
+        [Required(ErrorMessage = "Please enter an email address.")]
         [EmailAddress(ErrorMessage = "Invalid email address.")]
         public string Email { get; set; } = string.Empty;
 
         [Required(ErrorMessage = "Please enter a date of birth.")]
         [MinimumAge(8, ErrorMessage = "Age must be between 8 and 80.", MaxAge = 80)]
-    
         public DateTime DOB { get; set; }
 
         public bool IsCoach { get; set; } = false;

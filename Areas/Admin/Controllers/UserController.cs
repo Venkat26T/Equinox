@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using Equinox.Models;
-using Microsoft.EntityFrameworkCore.Sqlite;
+using Microsoft.Extensions.Logging;
 
 namespace Equinox.Areas.Admin.Controllers
 {
@@ -8,8 +8,9 @@ namespace Equinox.Areas.Admin.Controllers
     public class UserController : Controller
     {
         private readonly EquinoxContext _context;
-         private readonly ILogger<ClubController> _logger;
-        public UserController(EquinoxContext context, ILogger<ClubController> logger)
+        private readonly ILogger<UserController> _logger;
+
+        public UserController(EquinoxContext context, ILogger<UserController> logger)
         {
             _context = context;
             _logger = logger;
@@ -24,8 +25,6 @@ namespace Equinox.Areas.Admin.Controllers
 
         public IActionResult Create() => View();
 
-
-
         [HttpPost]
         [ValidateAntiForgeryToken]
         public IActionResult Create(User user)
@@ -36,15 +35,10 @@ namespace Equinox.Areas.Admin.Controllers
                 _context.SaveChanges();
                 return RedirectToAction(nameof(Index));
             }
+
+            ModelState.AddModelError("", "Please fix the error");
             return View(user);
         }
-
-
-
-
-
-
-
 
         public IActionResult Edit(int id)
         {
@@ -57,12 +51,15 @@ namespace Equinox.Areas.Admin.Controllers
         public IActionResult Edit(int id, User user)
         {
             if (id != user.UserId) return BadRequest();
+
             if (ModelState.IsValid)
             {
                 _context.Update(user);
                 _context.SaveChanges();
                 return RedirectToAction(nameof(Index));
             }
+
+            ModelState.AddModelError("", "Please fix the error");
             return View(user);
         }
 

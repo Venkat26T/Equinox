@@ -5,17 +5,16 @@ using System.Linq;
 
 public class UniquePhoneNumberAttribute : ValidationAttribute
 {
-    protected override ValidationResult IsValid(object value, ValidationContext validationContext)
+    protected override ValidationResult? IsValid(object? value, ValidationContext validationContext)
     {
         var db = validationContext.GetService(typeof(EquinoxContext)) as EquinoxContext;
 
-        if (value == null || db == null)
+        if (value is not string phone || db == null)
             return new ValidationResult("Phone number is required.");
 
-        string phone = value.ToString();
         bool exists = db.Users.Any(u => u.PhoneNumber == phone);
 
-        return exists 
+        return exists
             ? new ValidationResult(ErrorMessage ?? "Phone number already exists.")
             : ValidationResult.Success;
     }

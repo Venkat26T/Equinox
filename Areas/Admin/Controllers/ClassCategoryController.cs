@@ -1,7 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using Equinox.Models;
 
-using Microsoft.EntityFrameworkCore.Sqlite;
 namespace Equinox.Areas.Admin.Controllers
 {
     [Area("Admin")]
@@ -22,13 +21,10 @@ namespace Equinox.Areas.Admin.Controllers
 
         public IActionResult Create() => View();
 
-
-
         [HttpPost]
         [ValidateAntiForgeryToken]
         public IActionResult Create(ClassCategory category)
         {
-
             if (!ModelState.IsValid)
             {
                 ModelState.AddModelError("", "Please fix the error");
@@ -40,12 +36,6 @@ namespace Equinox.Areas.Admin.Controllers
             return RedirectToAction(nameof(Index));
         }
 
-
-
-
-
-
-
         public IActionResult Edit(int id)
         {
             var category = _context.ClassCategories.Find(id);
@@ -53,19 +43,21 @@ namespace Equinox.Areas.Admin.Controllers
         }
 
         [HttpPost]
-
         [ValidateAntiForgeryToken]
         public IActionResult Edit(int id, ClassCategory category)
         {
-            if (id != category.ClassCategoryId) return BadRequest();
-            if (ModelState.IsValid)
+            if (id != category.ClassCategoryId)
+                return BadRequest();
+
+            if (!ModelState.IsValid)
             {
-                _context.Update(category);
-                _context.SaveChanges();
-                return RedirectToAction(nameof(Index));
+                ModelState.AddModelError("", "Please fix the error");
+                return View(category);
             }
-            ModelState.AddModelError("", "Please fix the error");
-            return View(category);
+
+            _context.Update(category);
+            _context.SaveChanges();
+            return RedirectToAction(nameof(Index));
         }
 
         public IActionResult Delete(int id)
@@ -75,7 +67,6 @@ namespace Equinox.Areas.Admin.Controllers
         }
 
         [HttpPost, ActionName("Delete")]
-
         [ValidateAntiForgeryToken]
         public IActionResult DeleteConfirmed(int id)
         {

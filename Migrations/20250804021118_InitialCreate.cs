@@ -19,7 +19,8 @@ namespace Equinox.Migrations
                 {
                     ClassCategoryId = table.Column<int>(type: "INTEGER", nullable: false)
                         .Annotation("Sqlite:Autoincrement", true),
-                    Name = table.Column<string>(type: "TEXT", nullable: false)
+                    Name = table.Column<string>(type: "TEXT", maxLength: 50, nullable: false),
+                    Image = table.Column<string>(type: "TEXT", nullable: true)
                 },
                 constraints: table =>
                 {
@@ -32,7 +33,7 @@ namespace Equinox.Migrations
                 {
                     ClubId = table.Column<int>(type: "INTEGER", nullable: false)
                         .Annotation("Sqlite:Autoincrement", true),
-                    Name = table.Column<string>(type: "TEXT", nullable: false),
+                    Name = table.Column<string>(type: "TEXT", maxLength: 50, nullable: false),
                     PhoneNumber = table.Column<string>(type: "TEXT", nullable: false)
                 },
                 constraints: table =>
@@ -46,7 +47,7 @@ namespace Equinox.Migrations
                 {
                     UserId = table.Column<int>(type: "INTEGER", nullable: false)
                         .Annotation("Sqlite:Autoincrement", true),
-                    Name = table.Column<string>(type: "TEXT", nullable: false),
+                    Name = table.Column<string>(type: "TEXT", maxLength: 50, nullable: false),
                     PhoneNumber = table.Column<string>(type: "TEXT", nullable: false),
                     Email = table.Column<string>(type: "TEXT", nullable: false),
                     DOB = table.Column<DateTime>(type: "TEXT", nullable: false),
@@ -115,12 +116,12 @@ namespace Equinox.Migrations
 
             migrationBuilder.InsertData(
                 table: "ClassCategories",
-                columns: new[] { "ClassCategoryId", "Name" },
+                columns: new[] { "ClassCategoryId", "Image", "Name" },
                 values: new object[,]
                 {
-                    { 1, "Yoga" },
-                    { 2, "HIIT" },
-                    { 3, "Boxing" }
+                    { 1, "", "Yoga" },
+                    { 2, "", "HIIT" },
+                    { 3, "", "Boxing" }
                 });
 
             migrationBuilder.InsertData(

@@ -1,25 +1,49 @@
 @model Equinox.Models.User
-<h2>Edit User</h2>
-<form asp-action="Edit">
-    
-    @Html.AntiForgeryToken()
 
+<h2>Edit User</h2>
+
+<form asp-action="Edit" method="post">
+    @Html.AntiForgeryToken()
     <input type="hidden" asp-for="UserId" />
-    <div asp-validation-summary="All"></div>
-   
-    <div><label asp-for="Name"></label><input asp-for="Name" /><span asp-validation-for="Name"></span></div>
-    <div><label asp-for="Email"></label><input asp-for="Email" /><span asp-validation-for="Email"></span></div>
-    <div><label asp-for="PhoneNumber"></label><input asp-for="PhoneNumber" /><span asp-validation-for="PhoneNumber"></span></div>
-    <div><label asp-for="DOB"></label><input asp-for="DOB" type="date" /><span asp-validation-for="DOB"></span></div>
-    <div><label asp-for="IsCoach"></label><input asp-for="IsCoach" type="checkbox" /></div>
-    <button type="submit">Save</button>
+
+    <div asp-validation-summary="All" class="text-danger"></div>
+
+    <div>
+        <label asp-for="Name"></label>
+        <input asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+
+    <div>
+        <label asp-for="Email"></label>
+        <input asp-for="Email" class="form-control" />
+        <span asp-validation-for="Email" class="text-danger"></span>
+    </div>
+
+    <div>
+        <label asp-for="PhoneNumber"></label>
+        <input asp-for="PhoneNumber" class="form-control" />
+        <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+    </div>
+
+    <div>
+        <label asp-for="DOB"></label>
+        <input asp-for="DOB" type="date" class="form-control" />
+        <span asp-validation-for="DOB" class="text-danger"></span>
+    </div>
+
+    <div class="form-check">
+        <input asp-for="IsCoach" class="form-check-input" type="checkbox" />
+        <label asp-for="IsCoach" class="form-check-label"></label>
+    </div>
+
+    <button type="submit" class="btn btn-primary mt-2">Save</button>
 </form>
-<a asp-action="Index">Back</a>
+
+<a asp-action="Index" class="btn btn-secondary mt-2">Back</a>
 
 @section Scripts {
-   <script src="~/js/minimum-age.js"></script>
-
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/jquery-validation-unobtrusive@3.2.12/dist/jquery.validate.unobtrusive.min.js"></script>  
+    <script src="~/js/minimum-age.js"></script>
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
 }

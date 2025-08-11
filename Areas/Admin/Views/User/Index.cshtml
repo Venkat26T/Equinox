@@ -1,20 +1,24 @@
 @model IEnumerable<Equinox.Models.User>
+
 @{
     ViewData["Title"] = "Manage Users";
 }
-<h2>@ViewData["Title"]</h2>
-<p><a asp-action="Create">Add New</a></p>
 
+<h2>@ViewData["Title"]</h2>
+
+<p>
+    <a asp-action="Create" class="btn btn-success mb-3">Add New</a>
+</p>
 
 <table class="table table-hover table-bordered table-striped align-middle shadow-sm rounded">
     <thead class="table-primary text-center">
         <tr>
-            <th scope="col">Name</th>
-            <th scope="col">Email</th>
-            <th scope="col">Phone</th>
-            <th scope="col">DOB</th>
-            <th scope="col">Is Coach</th>
-            <th scope="col">Actions</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Phone</th>
+            <th>DOB</th>
+            <th>Is Coach</th>
+            <th>Actions</th>
         </tr>
     </thead>
     <tbody>
@@ -27,8 +31,10 @@
                 <td>@item.DOB.ToShortDateString()</td>
                 <td>@(item.IsCoach ? "Yes" : "No")</td>
                 <td class="text-center">
-                    <a class="btn btn-sm btn-outline-primary me-1" asp-action="Edit" asp-route-id="@item.UserId">Edit</a>
-                    <a class="btn btn-sm btn-outline-danger" asp-action="Delete" asp-route-id="@item.UserId">Delete</a>
+                    <a class="btn btn-sm btn-outline-primary me-1"
+                       asp-action="Edit" asp-route-id="@item.UserId">Edit</a>
+                    <a class="btn btn-sm btn-outline-danger"
+                       asp-action="Delete" asp-route-id="@item.UserId">Delete</a>
                 </td>
             </tr>
         }

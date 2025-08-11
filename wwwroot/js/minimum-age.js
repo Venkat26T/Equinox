@@ -6,7 +6,6 @@ jQuery.validator.addMethod("minimumage", function (value, element) {
 
     var age = today.getFullYear() - dob.getFullYear();
 
-    // Adjust if birthday hasn't occurred yet this year
     var birthdayThisYear = new Date(today.getFullYear(), dob.getMonth(), dob.getDate());
     if (today < birthdayThisYear) {
         age--;
