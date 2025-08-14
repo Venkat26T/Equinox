@@ -1,7 +1,9 @@
 using Microsoft.AspNetCore.Mvc;
-using Equinox.Models;
 using Microsoft.Extensions.Logging;
-using System.Collections.Generic;
+using System.Linq;
+using Equinox.Models.DataLayer;
+using Equinox.Models.DomainModels;
+using Microsoft.EntityFrameworkCore;
 
 namespace Equinox.Areas.Admin.Controllers
 {
@@ -20,12 +22,14 @@ namespace Equinox.Areas.Admin.Controllers
         public IActionResult Index()
         {
             _logger.LogInformation("🔍 Reached Admin/Club/Index action");
-
             var clubs = _context.Clubs.ToList();
             return View(clubs);
         }
 
-        public IActionResult Create() => View();
+        public IActionResult Create()
+        {
+            return View();
+        }
 
         [HttpPost]
         [ValidateAntiForgeryToken]
@@ -33,19 +37,24 @@ namespace Equinox.Areas.Admin.Controllers
         {
             if (!ModelState.IsValid)
             {
-                ModelState.AddModelError("", "Please fix the error");
                 return View(club);
             }
 
             _context.Clubs.Add(club);
             _context.SaveChanges();
+
+            TempData["Message"] = "Club created successfully.";
             return RedirectToAction(nameof(Index));
         }
 
         public IActionResult Edit(int id)
         {
             var club = _context.Clubs.Find(id);
-            return club == null ? NotFound() : View(club);
+            if (club == null)
+            {
+                return NotFound();
+            }
+            return View(club);
         }
 
         [HttpPost]
@@ -54,19 +63,24 @@ namespace Equinox.Areas.Admin.Controllers
         {
             if (!ModelState.IsValid)
             {
-                ModelState.AddModelError("", "Please fix the error");
                 return View(club);
             }
 
             _context.Clubs.Update(club);
             _context.SaveChanges();
+
+            TempData["Message"] = "Club updated successfully.";
             return RedirectToAction(nameof(Index));
         }
 
         public IActionResult Delete(int id)
         {
             var club = _context.Clubs.Find(id);
-            return club == null ? NotFound() : View(club);
+            if (club == null)
+            {
+                return NotFound();
+            }
+            return View(club);
         }
 
         [HttpPost, ActionName("Delete")]
@@ -74,12 +88,30 @@ namespace Equinox.Areas.Admin.Controllers
         public IActionResult DeleteConfirmed(int id)
         {
             var club = _context.Clubs.Find(id);
-            if (club != null)
+
+            if (club == null)
             {
-                _context.Clubs.Remove(club);
-                _context.SaveChanges();
+                TempData["Message"] = "Club not found.";
+                return RedirectToAction(nameof(Index));
             }
+
+            // Check if any class in this club has bookings
+            bool hasBookings = _context.Bookings
+                .Include(b => b.EquinoxClass)
+                .Any(b => b.EquinoxClass.ClubId == id);
+
+            if (hasBookings)
+            {
+                TempData["Message"] = $"Cannot delete club '{club.Name}' because it has booked classes.";
+                return RedirectToAction(nameof(Index));
+            }
+
+            _context.Clubs.Remove(club);
+            _context.SaveChanges();
+            TempData["Message"] = $"Club '{club.Name}' deleted successfully.";
+
             return RedirectToAction(nameof(Index));
         }
+
     }
 }

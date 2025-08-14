@@ -1,4 +1,4 @@
-@model Equinox.Models.EquinoxClass
+@model Equinox.Models.DomainModels.EquinoxClass
 
 @{
     Layout = "_Layout";
@@ -21,6 +21,7 @@
                 <p class="card-text"><strong>Coach:</strong> @Model.User.Name</p>
 
                 <form asp-action="Book" method="post">
+                    @Html.AntiForgeryToken()
                     <input type="hidden" name="id" value="@Model.EquinoxClassId" />
                     <button type="submit" class="btn btn-primary">Book This Class</button>
                 </form>

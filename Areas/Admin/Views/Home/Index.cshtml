@@ -4,11 +4,14 @@
 }
 
 <div class="container mt-4">
-    <h2>Admin Dashboard</h2>
+    <h2 class="mb-3">Admin Dashboard</h2>
 
-    <ul>
-        <li><a asp-area="Admin" asp-controller="Club" asp-action="Index">Manage Club</a></li>
-        <li><a asp-area="Admin" asp-controller="ClassCategory" asp-action="Index">Manage Class Category</a></li>
-        <li><a asp-area="Admin" asp-controller="User" asp-action="Index">Manage User</a></li>
-    </ul>
+    <div class="card shadow-sm">
+        <div class="card-body">
+            <p class="mb-0">
+                Welcome to the admin panel. Use the navigation bar above to manage
+                <strong>Clubs</strong>, <strong>Class Categories</strong>, and <strong>Users</strong>.
+            </p>
+        </div>
+    </div>
 </div>

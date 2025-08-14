@@ -1,0 +1,802 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\yache\\Downloads\\Team Project Phase 3\\Equinox\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F6C9060D-DA6E-B67F-A651-993AA086B38B}|Equinox.csproj|c:\\users\\yache\\downloads\\team project phase 3\\equinox\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6C9060D-DA6E-B67F-A651-993AA086B38B}|Equinox.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6C9060D-DA6E-B67F-A651-993AA086B38B}|Equinox.csproj|c:\\users\\yache\\downloads\\team project phase 3\\equinox\\views\\shared\\_mainlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6C9060D-DA6E-B67F-A651-993AA086B38B}|Equinox.csproj|solutionrelative:views\\shared\\_mainlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6C9060D-DA6E-B67F-A651-993AA086B38B}|Equinox.csproj|c:\\users\\yache\\downloads\\team project phase 3\\equinox\\areas\\admin\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6C9060D-DA6E-B67F-A651-993AA086B38B}|Equinox.csproj|solutionrelative:areas\\admin\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6C9060D-DA6E-B67F-A651-993AA086B38B}|Equinox.csproj|c:\\users\\yache\\downloads\\team project phase 3\\equinox\\areas\\admin\\controllers\\classcategorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6C9060D-DA6E-B67F-A651-993AA086B38B}|Equinox.csproj|solutionrelative:areas\\admin\\controllers\\classcategorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6C9060D-DA6E-B67F-A651-993AA086B38B}|Equinox.csproj|c:\\users\\yache\\downloads\\team project phase 3\\equinox\\areas\\admin\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6C9060D-DA6E-B67F-A651-993AA086B38B}|Equinox.csproj|solutionrelative:areas\\admin\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6C9060D-DA6E-B67F-A651-993AA086B38B}|Equinox.csproj|c:\\users\\yache\\downloads\\team project phase 3\\equinox\\areas\\admin\\controllers\\clubcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6C9060D-DA6E-B67F-A651-993AA086B38B}|Equinox.csproj|solutionrelative:areas\\admin\\controllers\\clubcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6C9060D-DA6E-B67F-A651-993AA086B38B}|Equinox.csproj|c:\\users\\yache\\downloads\\team project phase 3\\equinox\\controllers\\gymcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6C9060D-DA6E-B67F-A651-993AA086B38B}|Equinox.csproj|solutionrelative:controllers\\gymcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6C9060D-DA6E-B67F-A651-993AA086B38B}|Equinox.csproj|c:\\users\\yache\\downloads\\team project phase 3\\equinox\\areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6C9060D-DA6E-B67F-A651-993AA086B38B}|Equinox.csproj|solutionrelative:areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6C9060D-DA6E-B67F-A651-993AA086B38B}|Equinox.csproj|c:\\users\\yache\\downloads\\team project phase 3\\equinox\\models\\datalayer\\equinoxcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6C9060D-DA6E-B67F-A651-993AA086B38B}|Equinox.csproj|solutionrelative:models\\datalayer\\equinoxcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6C9060D-DA6E-B67F-A651-993AA086B38B}|Equinox.csproj|c:\\users\\yache\\downloads\\team project phase 3\\equinox\\models\\domainmodels\\classcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6C9060D-DA6E-B67F-A651-993AA086B38B}|Equinox.csproj|solutionrelative:models\\domainmodels\\classcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6C9060D-DA6E-B67F-A651-993AA086B38B}|Equinox.csproj|c:\\users\\yache\\downloads\\team project phase 3\\equinox\\models\\domainmodels\\equinoxclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6C9060D-DA6E-B67F-A651-993AA086B38B}|Equinox.csproj|solutionrelative:models\\domainmodels\\equinoxclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6C9060D-DA6E-B67F-A651-993AA086B38B}|Equinox.csproj|c:\\users\\yache\\downloads\\team project phase 3\\equinox\\models\\domainmodels\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6C9060D-DA6E-B67F-A651-993AA086B38B}|Equinox.csproj|solutionrelative:models\\domainmodels\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6C9060D-DA6E-B67F-A651-993AA086B38B}|Equinox.csproj|c:\\users\\yache\\downloads\\team project phase 3\\equinox\\models\\domainmodels\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6C9060D-DA6E-B67F-A651-993AA086B38B}|Equinox.csproj|solutionrelative:models\\domainmodels\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6C9060D-DA6E-B67F-A651-993AA086B38B}|Equinox.csproj|c:\\users\\yache\\downloads\\team project phase 3\\equinox\\models\\domainmodels\\club.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6C9060D-DA6E-B67F-A651-993AA086B38B}|Equinox.csproj|solutionrelative:models\\domainmodels\\club.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6C9060D-DA6E-B67F-A651-993AA086B38B}|Equinox.csproj|c:\\users\\yache\\downloads\\team project phase 3\\equinox\\models\\infrastructure\\sessionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6C9060D-DA6E-B67F-A651-993AA086B38B}|Equinox.csproj|solutionrelative:models\\infrastructure\\sessionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6C9060D-DA6E-B67F-A651-993AA086B38B}|Equinox.csproj|c:\\users\\yache\\downloads\\team project phase 3\\equinox\\models\\infrastructure\\sessionhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6C9060D-DA6E-B67F-A651-993AA086B38B}|Equinox.csproj|solutionrelative:models\\infrastructure\\sessionhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6C9060D-DA6E-B67F-A651-993AA086B38B}|Equinox.csproj|c:\\users\\yache\\downloads\\team project phase 3\\equinox\\controllers\\clubcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6C9060D-DA6E-B67F-A651-993AA086B38B}|Equinox.csproj|solutionrelative:controllers\\clubcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6C9060D-DA6E-B67F-A651-993AA086B38B}|Equinox.csproj|c:\\users\\yache\\downloads\\team project phase 3\\equinox\\controllers\\classcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6C9060D-DA6E-B67F-A651-993AA086B38B}|Equinox.csproj|solutionrelative:controllers\\classcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6C9060D-DA6E-B67F-A651-993AA086B38B}|Equinox.csproj|c:\\users\\yache\\downloads\\team project phase 3\\equinox\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6C9060D-DA6E-B67F-A651-993AA086B38B}|Equinox.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6C9060D-DA6E-B67F-A651-993AA086B38B}|Equinox.csproj|c:\\users\\yache\\downloads\\team project phase 3\\equinox\\views\\gym\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6C9060D-DA6E-B67F-A651-993AA086B38B}|Equinox.csproj|solutionrelative:views\\gym\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6C9060D-DA6E-B67F-A651-993AA086B38B}|Equinox.csproj|c:\\users\\yache\\downloads\\team project phase 3\\equinox\\models\\viewmodels\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6C9060D-DA6E-B67F-A651-993AA086B38B}|Equinox.csproj|solutionrelative:models\\viewmodels\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6C9060D-DA6E-B67F-A651-993AA086B38B}|Equinox.csproj|c:\\users\\yache\\downloads\\team project phase 3\\equinox\\areas\\admin\\views\\classcategory\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6C9060D-DA6E-B67F-A651-993AA086B38B}|Equinox.csproj|solutionrelative:areas\\admin\\views\\classcategory\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6C9060D-DA6E-B67F-A651-993AA086B38B}|Equinox.csproj|c:\\users\\yache\\downloads\\team project phase 3\\equinox\\views\\home\\cookiepolicy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6C9060D-DA6E-B67F-A651-993AA086B38B}|Equinox.csproj|solutionrelative:views\\home\\cookiepolicy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6C9060D-DA6E-B67F-A651-993AA086B38B}|Equinox.csproj|c:\\users\\yache\\downloads\\team project phase 3\\equinox\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6C9060D-DA6E-B67F-A651-993AA086B38B}|Equinox.csproj|solutionrelative:views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6C9060D-DA6E-B67F-A651-993AA086B38B}|Equinox.csproj|c:\\users\\yache\\downloads\\team project phase 3\\equinox\\views\\gym\\viewbookings.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6C9060D-DA6E-B67F-A651-993AA086B38B}|Equinox.csproj|solutionrelative:views\\gym\\viewbookings.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6C9060D-DA6E-B67F-A651-993AA086B38B}|Equinox.csproj|c:\\users\\yache\\downloads\\team project phase 3\\equinox\\views\\gym\\showclasses.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6C9060D-DA6E-B67F-A651-993AA086B38B}|Equinox.csproj|solutionrelative:views\\gym\\showclasses.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6C9060D-DA6E-B67F-A651-993AA086B38B}|Equinox.csproj|c:\\users\\yache\\downloads\\team project phase 3\\equinox\\areas\\admin\\views\\user\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6C9060D-DA6E-B67F-A651-993AA086B38B}|Equinox.csproj|solutionrelative:areas\\admin\\views\\user\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6C9060D-DA6E-B67F-A651-993AA086B38B}|Equinox.csproj|c:\\users\\yache\\downloads\\team project phase 3\\equinox\\areas\\admin\\views\\user\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6C9060D-DA6E-B67F-A651-993AA086B38B}|Equinox.csproj|solutionrelative:areas\\admin\\views\\user\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6C9060D-DA6E-B67F-A651-993AA086B38B}|Equinox.csproj|c:\\users\\yache\\downloads\\team project phase 3\\equinox\\areas\\admin\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6C9060D-DA6E-B67F-A651-993AA086B38B}|Equinox.csproj|solutionrelative:areas\\admin\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6C9060D-DA6E-B67F-A651-993AA086B38B}|Equinox.csproj|c:\\users\\yache\\downloads\\team project phase 3\\equinox\\areas\\admin\\views\\club\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6C9060D-DA6E-B67F-A651-993AA086B38B}|Equinox.csproj|solutionrelative:areas\\admin\\views\\club\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6C9060D-DA6E-B67F-A651-993AA086B38B}|Equinox.csproj|c:\\users\\yache\\downloads\\team project phase 3\\equinox\\areas\\admin\\views\\club\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6C9060D-DA6E-B67F-A651-993AA086B38B}|Equinox.csproj|solutionrelative:areas\\admin\\views\\club\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6C9060D-DA6E-B67F-A651-993AA086B38B}|Equinox.csproj|c:\\users\\yache\\downloads\\team project phase 3\\equinox\\areas\\admin\\views\\club\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6C9060D-DA6E-B67F-A651-993AA086B38B}|Equinox.csproj|solutionrelative:areas\\admin\\views\\club\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6C9060D-DA6E-B67F-A651-993AA086B38B}|Equinox.csproj|c:\\users\\yache\\downloads\\team project phase 3\\equinox\\areas\\admin\\views\\club\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6C9060D-DA6E-B67F-A651-993AA086B38B}|Equinox.csproj|solutionrelative:areas\\admin\\views\\club\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6C9060D-DA6E-B67F-A651-993AA086B38B}|Equinox.csproj|c:\\users\\yache\\downloads\\team project phase 3\\equinox\\areas\\admin\\views\\classcategory\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6C9060D-DA6E-B67F-A651-993AA086B38B}|Equinox.csproj|solutionrelative:areas\\admin\\views\\classcategory\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6C9060D-DA6E-B67F-A651-993AA086B38B}|Equinox.csproj|c:\\users\\yache\\downloads\\team project phase 3\\equinox\\areas\\admin\\views\\classcategory\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6C9060D-DA6E-B67F-A651-993AA086B38B}|Equinox.csproj|solutionrelative:areas\\admin\\views\\classcategory\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6C9060D-DA6E-B67F-A651-993AA086B38B}|Equinox.csproj|c:\\users\\yache\\downloads\\team project phase 3\\equinox\\areas\\admin\\views\\classcategory\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6C9060D-DA6E-B67F-A651-993AA086B38B}|Equinox.csproj|solutionrelative:areas\\admin\\views\\classcategory\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6C9060D-DA6E-B67F-A651-993AA086B38B}|Equinox.csproj|c:\\users\\yache\\downloads\\team project phase 3\\equinox\\areas\\admin\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6C9060D-DA6E-B67F-A651-993AA086B38B}|Equinox.csproj|solutionrelative:areas\\admin\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6C9060D-DA6E-B67F-A651-993AA086B38B}|Equinox.csproj|c:\\users\\yache\\downloads\\team project phase 3\\equinox\\areas\\admin\\views\\user\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6C9060D-DA6E-B67F-A651-993AA086B38B}|Equinox.csproj|solutionrelative:areas\\admin\\views\\user\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6C9060D-DA6E-B67F-A651-993AA086B38B}|Equinox.csproj|c:\\users\\yache\\downloads\\team project phase 3\\equinox\\models\\validations\\minimumageattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6C9060D-DA6E-B67F-A651-993AA086B38B}|Equinox.csproj|solutionrelative:models\\validations\\minimumageattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6C9060D-DA6E-B67F-A651-993AA086B38B}|Equinox.csproj|c:\\users\\yache\\downloads\\team project phase 3\\equinox\\models\\validations\\uniquephoneattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6C9060D-DA6E-B67F-A651-993AA086B38B}|Equinox.csproj|solutionrelative:models\\validations\\uniquephoneattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6C9060D-DA6E-B67F-A651-993AA086B38B}|Equinox.csproj|c:\\users\\yache\\downloads\\team project phase 3\\equinox\\models\\viewmodels\\filterviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6C9060D-DA6E-B67F-A651-993AA086B38B}|Equinox.csproj|solutionrelative:models\\viewmodels\\filterviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6C9060D-DA6E-B67F-A651-993AA086B38B}|Equinox.csproj|c:\\users\\yache\\downloads\\team project phase 3\\equinox\\models\\datalayer\\queryoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6C9060D-DA6E-B67F-A651-993AA086B38B}|Equinox.csproj|solutionrelative:models\\datalayer\\queryoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6C9060D-DA6E-B67F-A651-993AA086B38B}|Equinox.csproj|c:\\users\\yache\\downloads\\team project phase 3\\equinox\\models\\datalayer\\queryextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6C9060D-DA6E-B67F-A651-993AA086B38B}|Equinox.csproj|solutionrelative:models\\datalayer\\queryextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6C9060D-DA6E-B67F-A651-993AA086B38B}|Equinox.csproj|c:\\users\\yache\\downloads\\team project phase 3\\equinox\\models\\datalayer\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6C9060D-DA6E-B67F-A651-993AA086B38B}|Equinox.csproj|solutionrelative:models\\datalayer\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6C9060D-DA6E-B67F-A651-993AA086B38B}|Equinox.csproj|c:\\users\\yache\\downloads\\team project phase 3\\equinox\\models\\datalayer\\repositories\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6C9060D-DA6E-B67F-A651-993AA086B38B}|Equinox.csproj|solutionrelative:models\\datalayer\\repositories\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6C9060D-DA6E-B67F-A651-993AA086B38B}|Equinox.csproj|c:\\users\\yache\\downloads\\team project phase 3\\equinox\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F6C9060D-DA6E-B67F-A651-993AA086B38B}|Equinox.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_AdminLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\yache\\Downloads\\Team Project Phase 3\\Equinox\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
+              "ToolTip": "C:\\Users\\yache\\Downloads\\Team Project Phase 3\\Equinox\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-11T04:35:04.722Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_MainLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\yache\\Downloads\\Team Project Phase 3\\Equinox\\Views\\Shared\\_MainLayout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_MainLayout.cshtml",
+              "ToolTip": "C:\\Users\\yache\\Downloads\\Team Project Phase 3\\Equinox\\Views\\Shared\\_MainLayout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_MainLayout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-11T04:34:57.02Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\yache\\Downloads\\Team Project Phase 3\\Equinox\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\yache\\Downloads\\Team Project Phase 3\\Equinox\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAEgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-11T04:34:51.909Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ClubController.cs",
+              "DocumentMoniker": "C:\\Users\\yache\\Downloads\\Team Project Phase 3\\Equinox\\Areas\\Admin\\Controllers\\ClubController.cs",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\ClubController.cs",
+              "ToolTip": "C:\\Users\\yache\\Downloads\\Team Project Phase 3\\Equinox\\Areas\\Admin\\Controllers\\ClubController.cs",
+              "RelativeToolTip": "Areas\\Admin\\Controllers\\ClubController.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAqwFkAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T04:25:06.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\yache\\Downloads\\Team Project Phase 3\\Equinox\\Areas\\Admin\\Views\\ClassCategory\\Create.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\ClassCategory\\Create.cshtml",
+              "ToolTip": "C:\\Users\\yache\\Downloads\\Team Project Phase 3\\Equinox\\Areas\\Admin\\Views\\ClassCategory\\Create.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\ClassCategory\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-11T03:32:54.866Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Booking.cs",
+              "DocumentMoniker": "C:\\Users\\yache\\Downloads\\Team Project Phase 3\\Equinox\\Models\\DomainModels\\Booking.cs",
+              "RelativeDocumentMoniker": "Models\\DomainModels\\Booking.cs",
+              "ToolTip": "C:\\Users\\yache\\Downloads\\Team Project Phase 3\\Equinox\\Models\\DomainModels\\Booking.cs",
+              "RelativeToolTip": "Models\\DomainModels\\Booking.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T03:28:56.025Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ClassCategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\yache\\Downloads\\Team Project Phase 3\\Equinox\\Areas\\Admin\\Controllers\\ClassCategoryController.cs",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\ClassCategoryController.cs",
+              "ToolTip": "C:\\Users\\yache\\Downloads\\Team Project Phase 3\\Equinox\\Areas\\Admin\\Controllers\\ClassCategoryController.cs",
+              "RelativeToolTip": "Areas\\Admin\\Controllers\\ClassCategoryController.cs",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAuwGIAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T03:23:26.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EquinoxContext.cs",
+              "DocumentMoniker": "C:\\Users\\yache\\Downloads\\Team Project Phase 3\\Equinox\\Models\\DataLayer\\EquinoxContext.cs",
+              "RelativeDocumentMoniker": "Models\\DataLayer\\EquinoxContext.cs",
+              "ToolTip": "C:\\Users\\yache\\Downloads\\Team Project Phase 3\\Equinox\\Models\\DataLayer\\EquinoxContext.cs",
+              "RelativeToolTip": "Models\\DataLayer\\EquinoxContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA0AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T03:28:11.722Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\yache\\Downloads\\Team Project Phase 3\\Equinox\\Areas\\Admin\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\yache\\Downloads\\Team Project Phase 3\\Equinox\\Areas\\Admin\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Areas\\Admin\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAmwFEAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T03:35:58.783Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\yache\\Downloads\\Team Project Phase 3\\Equinox\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\yache\\Downloads\\Team Project Phase 3\\Equinox\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Areas\\Admin\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T03:36:28.98Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GymController.cs",
+              "DocumentMoniker": "C:\\Users\\yache\\Downloads\\Team Project Phase 3\\Equinox\\Controllers\\GymController.cs",
+              "RelativeDocumentMoniker": "Controllers\\GymController.cs",
+              "ToolTip": "C:\\Users\\yache\\Downloads\\Team Project Phase 3\\Equinox\\Controllers\\GymController.cs",
+              "RelativeToolTip": "Controllers\\GymController.cs",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAuwGQAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T03:37:31.094Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "C:\\Users\\yache\\Downloads\\Team Project Phase 3\\Equinox\\Views\\Home\\Contact.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Contact.cshtml",
+              "ToolTip": "C:\\Users\\yache\\Downloads\\Team Project Phase 3\\Equinox\\Views\\Home\\Contact.cshtml",
+              "RelativeToolTip": "Views\\Home\\Contact.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-11T03:35:05.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ClassCategory.cs",
+              "DocumentMoniker": "C:\\Users\\yache\\Downloads\\Team Project Phase 3\\Equinox\\Models\\DomainModels\\ClassCategory.cs",
+              "RelativeDocumentMoniker": "Models\\DomainModels\\ClassCategory.cs",
+              "ToolTip": "C:\\Users\\yache\\Downloads\\Team Project Phase 3\\Equinox\\Models\\DomainModels\\ClassCategory.cs",
+              "RelativeToolTip": "Models\\DomainModels\\ClassCategory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T04:17:52.496Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EquinoxClass.cs",
+              "DocumentMoniker": "C:\\Users\\yache\\Downloads\\Team Project Phase 3\\Equinox\\Models\\DomainModels\\EquinoxClass.cs",
+              "RelativeDocumentMoniker": "Models\\DomainModels\\EquinoxClass.cs",
+              "ToolTip": "C:\\Users\\yache\\Downloads\\Team Project Phase 3\\Equinox\\Models\\DomainModels\\EquinoxClass.cs",
+              "RelativeToolTip": "Models\\DomainModels\\EquinoxClass.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAA5wA8AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T04:13:20.636Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Club.cs",
+              "DocumentMoniker": "C:\\Users\\yache\\Downloads\\Team Project Phase 3\\Equinox\\Models\\DomainModels\\Club.cs",
+              "RelativeDocumentMoniker": "Models\\DomainModels\\Club.cs",
+              "ToolTip": "C:\\Users\\yache\\Downloads\\Team Project Phase 3\\Equinox\\Models\\DomainModels\\Club.cs",
+              "RelativeToolTip": "Models\\DomainModels\\Club.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T04:13:14.054Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "SessionHelper.cs",
+              "DocumentMoniker": "C:\\Users\\yache\\Downloads\\Team Project Phase 3\\Equinox\\Models\\Infrastructure\\SessionHelper.cs",
+              "RelativeDocumentMoniker": "Models\\Infrastructure\\SessionHelper.cs",
+              "ToolTip": "C:\\Users\\yache\\Downloads\\Team Project Phase 3\\Equinox\\Models\\Infrastructure\\SessionHelper.cs",
+              "RelativeToolTip": "Models\\Infrastructure\\SessionHelper.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAkwC8AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T03:30:10.567Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\yache\\Downloads\\Team Project Phase 3\\Equinox\\Models\\DomainModels\\User.cs",
+              "RelativeDocumentMoniker": "Models\\DomainModels\\User.cs",
+              "ToolTip": "C:\\Users\\yache\\Downloads\\Team Project Phase 3\\Equinox\\Models\\DomainModels\\User.cs",
+              "RelativeToolTip": "Models\\DomainModels\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T03:33:58.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "SessionExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\yache\\Downloads\\Team Project Phase 3\\Equinox\\Models\\Infrastructure\\SessionExtensions.cs",
+              "RelativeDocumentMoniker": "Models\\Infrastructure\\SessionExtensions.cs",
+              "ToolTip": "C:\\Users\\yache\\Downloads\\Team Project Phase 3\\Equinox\\Models\\Infrastructure\\SessionExtensions.cs",
+              "RelativeToolTip": "Models\\Infrastructure\\SessionExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T03:29:51.377Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CookiePolicy.cshtml",
+              "DocumentMoniker": "C:\\Users\\yache\\Downloads\\Team Project Phase 3\\Equinox\\Views\\Home\\CookiePolicy.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\CookiePolicy.cshtml",
+              "ToolTip": "C:\\Users\\yache\\Downloads\\Team Project Phase 3\\Equinox\\Views\\Home\\CookiePolicy.cshtml",
+              "RelativeToolTip": "Views\\Home\\CookiePolicy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-11T03:35:08.3Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\yache\\Downloads\\Team Project Phase 3\\Equinox\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\yache\\Downloads\\Team Project Phase 3\\Equinox\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T03:37:55.612Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ClassController.cs",
+              "DocumentMoniker": "C:\\Users\\yache\\Downloads\\Team Project Phase 3\\Equinox\\Controllers\\ClassController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ClassController.cs",
+              "ToolTip": "C:\\Users\\yache\\Downloads\\Team Project Phase 3\\Equinox\\Controllers\\ClassController.cs",
+              "RelativeToolTip": "Controllers\\ClassController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T03:43:03.919Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ClubController.cs",
+              "DocumentMoniker": "C:\\Users\\yache\\Downloads\\Team Project Phase 3\\Equinox\\Controllers\\ClubController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ClubController.cs",
+              "ToolTip": "C:\\Users\\yache\\Downloads\\Team Project Phase 3\\Equinox\\Controllers\\ClubController.cs",
+              "RelativeToolTip": "Controllers\\ClubController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T03:43:09.783Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ViewBookings.cshtml",
+              "DocumentMoniker": "C:\\Users\\yache\\Downloads\\Team Project Phase 3\\Equinox\\Views\\Gym\\ViewBookings.cshtml",
+              "RelativeDocumentMoniker": "Views\\Gym\\ViewBookings.cshtml",
+              "ToolTip": "C:\\Users\\yache\\Downloads\\Team Project Phase 3\\Equinox\\Views\\Gym\\ViewBookings.cshtml",
+              "RelativeToolTip": "Views\\Gym\\ViewBookings.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-11T03:34:59.926Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\yache\\Downloads\\Team Project Phase 3\\Equinox\\Models\\ViewModels\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ViewModels\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\yache\\Downloads\\Team Project Phase 3\\Equinox\\Models\\ViewModels\\ErrorViewModel.cs",
+              "RelativeToolTip": "Models\\ViewModels\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T03:30:47.136Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Detail.cshtml",
+              "DocumentMoniker": "C:\\Users\\yache\\Downloads\\Team Project Phase 3\\Equinox\\Views\\Gym\\Detail.cshtml",
+              "RelativeDocumentMoniker": "Views\\Gym\\Detail.cshtml",
+              "ToolTip": "C:\\Users\\yache\\Downloads\\Team Project Phase 3\\Equinox\\Views\\Gym\\Detail.cshtml",
+              "RelativeToolTip": "Views\\Gym\\Detail.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-11T03:34:50.648Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ShowClasses.cshtml",
+              "DocumentMoniker": "C:\\Users\\yache\\Downloads\\Team Project Phase 3\\Equinox\\Views\\Gym\\ShowClasses.cshtml",
+              "RelativeDocumentMoniker": "Views\\Gym\\ShowClasses.cshtml",
+              "ToolTip": "C:\\Users\\yache\\Downloads\\Team Project Phase 3\\Equinox\\Views\\Gym\\ShowClasses.cshtml",
+              "RelativeToolTip": "Views\\Gym\\ShowClasses.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-11T03:34:57.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\yache\\Downloads\\Team Project Phase 3\\Equinox\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\yache\\Downloads\\Team Project Phase 3\\Equinox\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-11T03:34:41.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\yache\\Downloads\\Team Project Phase 3\\Equinox\\Areas\\Admin\\Views\\ClassCategory\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\ClassCategory\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\yache\\Downloads\\Team Project Phase 3\\Equinox\\Areas\\Admin\\Views\\ClassCategory\\Delete.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\ClassCategory\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-11T03:33:15.314Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\yache\\Downloads\\Team Project Phase 3\\Equinox\\Areas\\Admin\\Views\\ClassCategory\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\ClassCategory\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\yache\\Downloads\\Team Project Phase 3\\Equinox\\Areas\\Admin\\Views\\ClassCategory\\Edit.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\ClassCategory\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-11T03:33:19.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\yache\\Downloads\\Team Project Phase 3\\Equinox\\Areas\\Admin\\Views\\ClassCategory\\Index.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\ClassCategory\\Index.cshtml",
+              "ToolTip": "C:\\Users\\yache\\Downloads\\Team Project Phase 3\\Equinox\\Areas\\Admin\\Views\\ClassCategory\\Index.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\ClassCategory\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-11T03:33:23.37Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\yache\\Downloads\\Team Project Phase 3\\Equinox\\Areas\\Admin\\Views\\Club\\Create.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Club\\Create.cshtml",
+              "ToolTip": "C:\\Users\\yache\\Downloads\\Team Project Phase 3\\Equinox\\Areas\\Admin\\Views\\Club\\Create.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Club\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-11T03:33:27.577Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\yache\\Downloads\\Team Project Phase 3\\Equinox\\Areas\\Admin\\Views\\Club\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Club\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\yache\\Downloads\\Team Project Phase 3\\Equinox\\Areas\\Admin\\Views\\Club\\Edit.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Club\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-11T03:33:33.935Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\yache\\Downloads\\Team Project Phase 3\\Equinox\\Areas\\Admin\\Views\\Club\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Club\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\yache\\Downloads\\Team Project Phase 3\\Equinox\\Areas\\Admin\\Views\\Club\\Delete.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Club\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-11T03:33:30.71Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\yache\\Downloads\\Team Project Phase 3\\Equinox\\Areas\\Admin\\Views\\User\\Create.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\User\\Create.cshtml",
+              "ToolTip": "C:\\Users\\yache\\Downloads\\Team Project Phase 3\\Equinox\\Areas\\Admin\\Views\\User\\Create.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\User\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-11T03:33:42.043Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\yache\\Downloads\\Team Project Phase 3\\Equinox\\Areas\\Admin\\Views\\User\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\User\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\yache\\Downloads\\Team Project Phase 3\\Equinox\\Areas\\Admin\\Views\\User\\Delete.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\User\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-11T03:33:46.742Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\yache\\Downloads\\Team Project Phase 3\\Equinox\\Areas\\Admin\\Views\\User\\Index.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\User\\Index.cshtml",
+              "ToolTip": "C:\\Users\\yache\\Downloads\\Team Project Phase 3\\Equinox\\Areas\\Admin\\Views\\User\\Index.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\User\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-11T03:33:54.482Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\yache\\Downloads\\Team Project Phase 3\\Equinox\\Areas\\Admin\\Views\\Club\\Index.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Club\\Index.cshtml",
+              "ToolTip": "C:\\Users\\yache\\Downloads\\Team Project Phase 3\\Equinox\\Areas\\Admin\\Views\\Club\\Index.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Club\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-11T03:33:37.809Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\yache\\Downloads\\Team Project Phase 3\\Equinox\\Areas\\Admin\\Views\\User\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\User\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\yache\\Downloads\\Team Project Phase 3\\Equinox\\Areas\\Admin\\Views\\User\\Edit.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\User\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-11T03:33:50.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "FilterViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\yache\\Downloads\\Team Project Phase 3\\Equinox\\Models\\ViewModels\\FilterViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ViewModels\\FilterViewModel.cs",
+              "ToolTip": "C:\\Users\\yache\\Downloads\\Team Project Phase 3\\Equinox\\Models\\ViewModels\\FilterViewModel.cs",
+              "RelativeToolTip": "Models\\ViewModels\\FilterViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T03:30:42.46Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "UniquePhoneAttribute.cs",
+              "DocumentMoniker": "C:\\Users\\yache\\Downloads\\Team Project Phase 3\\Equinox\\Models\\Validations\\UniquePhoneAttribute.cs",
+              "RelativeDocumentMoniker": "Models\\Validations\\UniquePhoneAttribute.cs",
+              "ToolTip": "C:\\Users\\yache\\Downloads\\Team Project Phase 3\\Equinox\\Models\\Validations\\UniquePhoneAttribute.cs",
+              "RelativeToolTip": "Models\\Validations\\UniquePhoneAttribute.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T03:30:40.347Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "MinimumAgeAttribute.cs",
+              "DocumentMoniker": "C:\\Users\\yache\\Downloads\\Team Project Phase 3\\Equinox\\Models\\Validations\\MinimumAgeAttribute.cs",
+              "RelativeDocumentMoniker": "Models\\Validations\\MinimumAgeAttribute.cs",
+              "ToolTip": "C:\\Users\\yache\\Downloads\\Team Project Phase 3\\Equinox\\Models\\Validations\\MinimumAgeAttribute.cs",
+              "RelativeToolTip": "Models\\Validations\\MinimumAgeAttribute.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T03:30:38.464Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "QueryOptions.cs",
+              "DocumentMoniker": "C:\\Users\\yache\\Downloads\\Team Project Phase 3\\Equinox\\Models\\DataLayer\\QueryOptions.cs",
+              "RelativeDocumentMoniker": "Models\\DataLayer\\QueryOptions.cs",
+              "ToolTip": "C:\\Users\\yache\\Downloads\\Team Project Phase 3\\Equinox\\Models\\DataLayer\\QueryOptions.cs",
+              "RelativeToolTip": "Models\\DataLayer\\QueryOptions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T03:28:46.667Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "C:\\Users\\yache\\Downloads\\Team Project Phase 3\\Equinox\\Models\\DataLayer\\Repositories\\Repository.cs",
+              "RelativeDocumentMoniker": "Models\\DataLayer\\Repositories\\Repository.cs",
+              "ToolTip": "C:\\Users\\yache\\Downloads\\Team Project Phase 3\\Equinox\\Models\\DataLayer\\Repositories\\Repository.cs",
+              "RelativeToolTip": "Models\\DataLayer\\Repositories\\Repository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T03:28:05.649Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "QueryExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\yache\\Downloads\\Team Project Phase 3\\Equinox\\Models\\DataLayer\\QueryExtensions.cs",
+              "RelativeDocumentMoniker": "Models\\DataLayer\\QueryExtensions.cs",
+              "ToolTip": "C:\\Users\\yache\\Downloads\\Team Project Phase 3\\Equinox\\Models\\DataLayer\\QueryExtensions.cs",
+              "RelativeToolTip": "Models\\DataLayer\\QueryExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T03:27:48.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\yache\\Downloads\\Team Project Phase 3\\Equinox\\Models\\DataLayer\\Repositories\\IRepository.cs",
+              "RelativeDocumentMoniker": "Models\\DataLayer\\Repositories\\IRepository.cs",
+              "ToolTip": "C:\\Users\\yache\\Downloads\\Team Project Phase 3\\Equinox\\Models\\DataLayer\\Repositories\\IRepository.cs",
+              "RelativeToolTip": "Models\\DataLayer\\Repositories\\IRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T03:27:38.019Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\yache\\Downloads\\Team Project Phase 3\\Equinox\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\yache\\Downloads\\Team Project Phase 3\\Equinox\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-11T03:23:56.608Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

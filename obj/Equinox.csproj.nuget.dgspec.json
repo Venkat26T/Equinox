@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\thang\\Downloads\\Equinox_updated_8_3_2025\\Equinox\\Equinox.csproj": {}
+    "C:\\Users\\thang\\OneDrive\\Documents\\Equinox\\Equinox.csproj": {}
   },
   "projects": {
-    "C:\\Users\\thang\\Downloads\\Equinox_updated_8_3_2025\\Equinox\\Equinox.csproj": {
+    "C:\\Users\\thang\\OneDrive\\Documents\\Equinox\\Equinox.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\thang\\Downloads\\Equinox_updated_8_3_2025\\Equinox\\Equinox.csproj",
+        "projectUniqueName": "C:\\Users\\thang\\OneDrive\\Documents\\Equinox\\Equinox.csproj",
         "projectName": "Equinox",
-        "projectPath": "C:\\Users\\thang\\Downloads\\Equinox_updated_8_3_2025\\Equinox\\Equinox.csproj",
+        "projectPath": "C:\\Users\\thang\\OneDrive\\Documents\\Equinox\\Equinox.csproj",
         "packagesPath": "C:\\Users\\thang\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\thang\\Downloads\\Equinox_updated_8_3_2025\\Equinox\\obj\\",
+        "outputPath": "C:\\Users\\thang\\OneDrive\\Documents\\Equinox\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\thang\\AppData\\Roaming\\NuGet\\NuGet.Config"

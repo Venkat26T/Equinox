@@ -15,7 +15,7 @@ namespace Equinox.Areas.Admin.Controllers
 
         public IActionResult Index()
         {
-            _logger.LogInformation("🔍 Reached Admin/Home/Index action");
+            _logger.LogInformation("✅ Admin/HomeController.Index loaded successfully.");
             return View();
         }
     }

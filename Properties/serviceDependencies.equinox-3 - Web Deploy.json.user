@@ -1,0 +1,25 @@
+{
+  "dependencies": {},
+  "parameters": {
+    "equinox-3.resourceGroupName": {
+      "Name": "equinox-3.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "appsvc_windows_centralus"
+    },
+    "equinox-3.subscriptionId": {
+      "Name": "equinox-3.subscriptionId",
+      "Type": "subscription",
+      "Value": "36e69521-18a4-41f5-87e6-7a9c8fb6a527"
+    },
+    "equinox-3.resourceGroupLocation": {
+      "Name": "equinox-3.resourceGroupLocation",
+      "Type": null,
+      "Value": "centralus"
+    },
+    "equinox-3.resourceName": {
+      "Name": "equinox-3.resourceName",
+      "Type": null,
+      "Value": "equinox-3"
+    }
+  }
+}

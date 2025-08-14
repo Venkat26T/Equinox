@@ -1,32 +1,26 @@
-@model Equinox.Models.Club 
+@model Equinox.Models.DomainModels.Club
 
-<h2>Create</h2>
+<h2 class="mb-3">Create Club</h2>
 
-<form asp-action="Create" method="post">
-    @Html.AntiForgeryToken()
+<form asp-action="Create" method="post" class="mt-3">
+    <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
 
-    <div asp-validation-summary="All" class="text-danger"></div>
-
-    <div>
-        <label asp-for="Name"></label>
+    <div class="form-group mb-3">
+        <label asp-for="Name" class="form-label"></label>
         <input asp-for="Name" class="form-control" />
         <span asp-validation-for="Name" class="text-danger"></span>
     </div>
 
-    <div>
-        <label asp-for="PhoneNumber"></label>
+    <div class="form-group mb-3">
+        <label asp-for="PhoneNumber" class="form-label"></label>
         <input asp-for="PhoneNumber" class="form-control" />
         <span asp-validation-for="PhoneNumber" class="text-danger"></span>
     </div>
 
-    <button type="submit" class="btn btn-primary mt-2">Save</button>
+    <button type="submit" class="btn btn-primary">Save</button>
+    <a asp-action="Index" class="btn btn-secondary ms-2">Back</a>
 </form>
 
-<a asp-action="Index">Back</a>
-
 @section Scripts {
-    <!-- ✅ Use only local validation scripts from wwwroot/lib -->
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
-    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+    <partial name="_ValidationScriptsPartial" />
 }

@@ -1,0 +1,16 @@
+@model Equinox.Models.Membership
+@{
+    Layout = "_AdminLayout";
+    ViewBag.Title = "Delete Membership";
+}
+<div class="container mt-4">
+    <h2>Delete Membership</h2>
+    <div class="alert alert-warning">
+        Are you sure you want to delete <strong>@Model.Name</strong> (@Model.Price.ToString("C"))?
+    </div>
+    <form asp-action="Delete" method="post">
+        <input type="hidden" asp-for="MembershipID" />
+        <button type="submit" class="btn btn-danger">Delete</button>
+        <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+    </form>
+</div>
